@@ -57,7 +57,7 @@ class Table(QWidget):
    
         # Qt.DescendingOrder 降序
         # Qt.AscendingOrder 升序
-        tableWidget.sortItems(2,  Qt.DescendingOrder )
+        tableWidget.sortItems(2,  Qt.AscendingOrder )
         
         self.setLayout(conLayout)
 

@@ -29,7 +29,7 @@ class TextEditDemo(QWidget):
 		self.textEdit.setPlainText("Hello PyQt5!\n点击按钮")
 
 	def btnPress2_Clicked(self):
-		self.textEdit.setHtml("<font color='red' size='6'><red>Hello PyQt5!\n点击按钮。</font>")
+		self.textEdit.setHtml("<font color='red' size='6'><red>Hello PyQt5!</font><br><font color='red' size='6'><red> 点击按钮。</font>")
 		
 if __name__ == "__main__":       
 	app = QApplication(sys.argv)

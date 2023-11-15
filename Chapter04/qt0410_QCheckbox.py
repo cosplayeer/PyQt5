@@ -31,7 +31,7 @@ class CheckBoxDemo(QWidget):
 		self.checkBox2.toggled.connect( lambda:self.btnstate(self.checkBox2) )
 		layout.addWidget(self.checkBox2)
 
-		self.checkBox3 = QCheckBox("tristateBox")
+		self.checkBox3 = QCheckBox("&tristateBox")
 		self.checkBox3.setTristate(True)
 		self.checkBox3.setCheckState(Qt.PartiallyChecked )		
 		self.checkBox3.stateChanged.connect( lambda:self.btnstate(self.checkBox3) )

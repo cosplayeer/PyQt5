@@ -38,11 +38,13 @@ class Table(QWidget):
 			table.setRowHeight(i , 200)  
 		
 		for k in range(15): # 27 examples of DDA  
-			i = k/3  
+			i = k//3  
 			j = k%3  
 			item = QTableWidgetItem()  
 			item.setFlags(Qt.ItemIsEnabled)  #用户点击时表格时，图片被选中  
-			icon = QIcon(r'.\images\bao%d.png' % k  ) 
+			# icon = QIcon(r'.\images\bao%d.png' % k  ) 
+			icon = QIcon(r'.\PyQt5\Chapter05\images\bao%d.png' % k  ) 
+			
 			item.setIcon(QIcon(icon )  )  
 									
 			print('e/icons/%d.png i=%d  j=%d' %( k , i , j ) )   				   

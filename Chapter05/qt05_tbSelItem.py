@@ -18,14 +18,14 @@ class Table(QWidget):
 
     def initUI(self):
         self.setWindowTitle("QTableWidget 例子")
-        self.resize(600,800);
+        self.resize(600,1600);
         conLayout = QHBoxLayout()
         tableWidget = QTableWidget()
-        tableWidget.setRowCount(30)
+        tableWidget.setRowCount(60)
         tableWidget.setColumnCount(4)
         conLayout.addWidget(tableWidget )
         
-        for i in range(30):
+        for i in range(60):
             for j in range(4):
                 itemContent = '(%d,%d)'% (i,j)  
                 tableWidget.setItem(i,j, QTableWidgetItem( itemContent ) )

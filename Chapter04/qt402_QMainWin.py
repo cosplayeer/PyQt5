@@ -18,7 +18,7 @@ class MainWidget(QMainWindow):
 		self.setWindowTitle("QMainWindow 例子")         
 		self.resize(400, 200) 
 		self.status = self.statusBar()
-		self.status.showMessage("这是状态栏提示",5000)
+		self.status.showMessage("这是状态栏提示",2000)
 
 
 if __name__ == "__main__": 

@@ -29,7 +29,8 @@ class WinForm(QMainWindow):
         #sender 是发送信号的对象，此处发送信号的对象是button1按钮 
 		sender = self.sender()         
 		print( sender.text() + ' 被按下了' )  
-		qApp = QApplication.instance()
+		qApp = QApplic
+		))ation.instance()
 		qApp.quit()
 		
 if __name__ == "__main__":  

@@ -19,7 +19,7 @@ class ListViewDemo(QWidget):
 		
 		listView = QListView()      
 		slm = QStringListModel();
-		self.qList = ['Item 1','Item 2','Item 3','Item 4' ]	
+		self.qList = ['Item 1','Item 2','Item 3','Item 66' ]	
 		slm.setStringList(self.qList)
 		listView.setModel(slm )
 		listView.clicked.connect(self.clicked)		

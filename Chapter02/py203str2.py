@@ -21,7 +21,7 @@ pi=css.find('c')
 print('pi,',pi)
 
 #4,字符串比较
-print('\n#4,字符串比较')
+print('\n#4,字符串比较') 
 print( s1 > s2 )  
 print( s1 == s2 )  
 print( s1 < s2 )  

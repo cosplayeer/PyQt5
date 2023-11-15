@@ -11,8 +11,8 @@ class MyClass(object):
 
 	@param.setter  
 	def param(self, value):  
-		print( "set param: %s" % self._param )
 		self._param = value  
+		print( "set param: %s" % self._param )
 	 
 	@param.deleter  
 	def param(self):  
@@ -22,6 +22,6 @@ class MyClass(object):
 if __name__ == "__main__":
 	cls = MyClass()
 	cls.param = 10
-	print("current param : %s " % cls.param )
+	print("current param : %s " % cls.param ) #set param:10一致没有调用
 	del cls.param
     

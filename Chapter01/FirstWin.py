@@ -11,7 +11,7 @@ if __name__ == '__main__':
     btn = QPushButton("Hello PyQt5")
     btn.clicked.connect(QCoreApplication.instance().quit)
     btn.resize(400,100)
-    btn.move(50,50)
+    btn.move(10,50)
     btn.show()
 
     sys.exit(app.exec_())

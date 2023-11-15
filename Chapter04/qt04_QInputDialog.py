@@ -36,7 +36,7 @@ class InputdialogDemo(QWidget):
 	def getItem(self):
 		items = ("C", "C++", "Java", "Python")
 		item, ok = QInputDialog.getItem(self, "select input dialog",
-		"语言列表", items, 0, False)
+		"语言列表", items, 1, False) #1是C++，False是不能随意修改
 		if ok and item:
 			self.le1.setText(item)
 	
